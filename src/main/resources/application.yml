@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: helloConfig
+  cloud:
+    config:
+      server:
+        git:
+          uri: file://c:/dev/test/config
+
+server:
+  port: 8091
+  
+logging:
+  level:
+    root: info
+  
